@@ -1,0 +1,18 @@
+const bruxos10 = bruxos.filter((e, i)=> i < 10)
+    
+    
+
+
+    bruxos10.map((e, i)=>{
+        const section = document.createElement("section")
+
+        section.innerHTML= `<img src=${e.image}>
+                            <h1>Name:${e.name} </h1>
+                            <h2>Species:${e.species}</h2>
+                            <h2>Gender: ${e.gender}</h2>
+                            <h2>House: ${e.house} </h2>                            
+        
+        `
+        sessao_bruxos.appendChild(section)
+    })
+    

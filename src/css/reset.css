@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    margin-top: 10px;
+    list-style: none;
+}
