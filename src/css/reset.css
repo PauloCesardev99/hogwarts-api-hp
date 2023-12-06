@@ -2,7 +2,6 @@
     margin: 0px;
     box-sizing: border-box;
     padding: 0px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 img{
@@ -11,6 +10,7 @@ img{
 
 a{
     text-decoration: none;
+    color: azure;
 }
 
 li{

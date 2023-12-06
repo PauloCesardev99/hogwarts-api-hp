@@ -3,6 +3,10 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
+
+
+    cor:#f7c86f
+    btn background:1#3e363
 } */
 
 img{
@@ -15,17 +19,45 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 200px;
     padding: 10px;
     background-color: black;
-    color:white;
+    color:#f7c86f;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.6em;
 
+}
+
+.logo-grifinoria{
+    width: 100px;
+}
+
+a{
+    color:#f7c86f;
 }
 
 .cabecalho li{
     text-align: center;
+   
 }
 
+.btn-header{
+    margin-top: 20px;
+    font-size: 0.7em;
+}
+
+.btn-header, button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color:   #f7c86f;
+    background-color:#3a352f6b;
+    border: 1px solid #f7c86f;
+    cursor: pointer;
+    font-family: 'Parisienne', cursive;
+ 
+}
+
+/* Conteudo Total da grifinoria*/
 
 .conteudo-total{
     display: flex;
@@ -38,7 +70,6 @@ img{
 
 .conteudo-total section{
     margin-top: 10px;
-    background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -48,3 +79,90 @@ img{
     height: 300px;
     
 }
+
+.conteudo-total section button{
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    font-size: 1.2em;
+}
+
+
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    color: #f7c86f;
+    font-family: 'Parisienne', cursive;
+}
+
+p{
+    text-align: center;
+}
+
+
+/* Media Query*/
+
+@media (min-width: 500px) {
+
+    body{
+        background: url(https://images.ctfassets.net/usf1vwtuqyxm/3aTEdDmRcYrswJHkM3zWq7/942cfff0f9261485e016aa37b5b3f924/the-gryffindor-common-room_3_1800x1248.png) no-repeat center ;
+        background-size: cover;
+        
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;    
+        
+        border-bottom: 1px solid rgba(247, 199, 111, 0.884);
+      
+    
+    }
+
+    ul{
+        display: flex;
+    }
+
+    ul li{
+        padding: 10px;
+    }
+
+    li:hover, a:hover{
+        transition: 2s;
+        color: rgba(255, 0, 0, 0.829);
+    }
+    /* conteudo total*/
+
+    .conteudo-total{
+       height: auto;
+        background-color: rgba(0, 0, 0, 0.671);
+        color: white;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .conteudo-total section{
+        width: 500px;
+        height: 462px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        
+    
+        
+    }
+
+    .conteudo-total section p{
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+}
+
