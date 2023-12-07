@@ -1,0 +1,76 @@
+img{
+    width: 200px;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color:#f7c86f;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.6em;
+
+}
+
+.logo-grifinoria{
+    width: 100px;
+}
+
+a{
+    color:#f7c86f;
+}
+
+.cabecalho li{
+    text-align: center;
+   
+}
+
+.btn-header{
+    margin-top: 20px;
+    font-size: 0.7em;
+}
+
+.btn-header, button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color:   #f7c86f;
+    background-color:#3a352f6b;
+    border: 1px solid #f7c86f;
+    cursor: pointer;
+    font-family: 'Parisienne', cursive;
+ 
+}
+
+@media (min-width: 500px) {
+
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;    
+        
+        border-bottom: 1px solid rgba(247, 199, 111, 0.884);
+      
+    
+    }
+
+    ul{
+        display: flex;
+    }
+
+    ul li{
+        padding: 10px;
+    }
+
+    li:hover, a:hover{
+        transition: 2s;
+        color: rgba(255, 0, 0, 0.829);
+    }
+}

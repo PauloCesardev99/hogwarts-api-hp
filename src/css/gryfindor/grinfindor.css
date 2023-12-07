@@ -9,6 +9,8 @@
     btn background:1#3e363
 } */
 
+
+
 img{
     width: 200px;
 }
@@ -106,9 +108,8 @@ p{
 @media (min-width: 500px) {
 
     body{
-        background: url(https://images.ctfassets.net/usf1vwtuqyxm/3aTEdDmRcYrswJHkM3zWq7/942cfff0f9261485e016aa37b5b3f924/the-gryffindor-common-room_3_1800x1248.png) no-repeat center ;
+        background: url(../../img/grifindor/Background-coomonhouse-gryffindor.png) center top no-repeat;
         background-size: cover;
-        
     }
 
     .cabecalho{
